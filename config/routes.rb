@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  # root 'users#index'
+  root to: 'toppages#index'
   get  '/singup', to: 'users#new'
 end
